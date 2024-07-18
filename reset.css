@@ -1,0 +1,178 @@
+/* reset.css */
+
+/* Remove default margin, padding, and set box-sizing */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set default font size, family, and color */
+html {
+  font-size: 100%;
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -moz-tab-size: 4;
+  tab-size: 4;
+  background: white;
+  color: black;
+}
+
+/* Set base styles for block-level elements */
+body {
+  margin: 0;
+  line-height: 1.5;
+  background-color: #ffffff;
+}
+
+/* Remove list styles */
+ul,
+ol,
+menu {
+  list-style: none;
+}
+
+/* Remove default styles for heading elements */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+/* Remove default styles for links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove default styles for tables */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Remove default styles for form elements */
+button,
+input,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+  margin: 0;
+}
+
+/* Remove default styles for media elements */
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Reset padding for blockquotes and quotes */
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: "";
+  content: none;
+}
+
+/* Reset styles for figure elements */
+figure {
+  margin: 0;
+}
+
+/* Reset fieldset styles */
+fieldset {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+/* Reset legend styles */
+legend {
+  padding: 0;
+  margin: 0;
+}
+
+/* Reset default styles for hr elements */
+hr {
+  border: 0;
+  border-top: 1px solid #000;
+  margin: 0;
+}
+
+/* Remove default styles for address elements */
+address {
+  font-style: normal;
+}
+
+/* Remove default styles for pre elements */
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Remove default styles for abbr elements */
+abbr[title] {
+  text-decoration: underline dotted;
+}
+
+/* Remove default styles for small elements */
+small {
+  font-size: 80%;
+}
+
+/* Remove default styles for sub and sup elements */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Remove default styles for b, strong, i, em, u, s, and mark elements */
+b,
+strong {
+  font-weight: bolder;
+}
+
+i,
+em {
+  font-style: italic;
+}
+
+u {
+  text-decoration: underline;
+}
+
+s,
+del {
+  text-decoration: line-through;
+}
+
+mark {
+  background-color: yellow;
+  color: black;
+}
